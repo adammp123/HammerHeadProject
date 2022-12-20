@@ -176,29 +176,34 @@ body {
 }
 
 .contact {
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
     height: 10rem;
-    margin-top: 30px;
+    margin-top: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 0;
+    
 }
 
 .contact div {
     color:antiquewhite;
     width: 30%;
+    height: 7rem;
     font-size: 2.2rem;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     flex-shrink: 2;
-   
+    border-bottom: silver 1px solid;
+    
 }
 
+
 .contact a {
-    height: 80%;
-    width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -206,27 +211,26 @@ body {
 }
 
 .email-img:hover {
-    height: 5.5rem;
-    width: 7rem;
-
+    margin-bottom: 2rem;
+    transition: .5s;
 }
 
 .phone-img:hover {
-    height: 7rem;
-    width: 8rem;
+    margin-bottom: 2rem;
+    transition: .5s;
 }
 
-.contact-border {
-    border-left: 1px darkgrey solid;
-    border-right: 1px darkgrey solid;
+#loc {
+    height: 4rem;
+    width: 4rem;
 }
 
 .contact img {
-    height: 40%;
-    width: 40%;
-    
-    
+    max-height: 60%;
+    max-width: 60%;
 }
+
+
 
 .contact p {
     text-align: center;
