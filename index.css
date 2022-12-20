@@ -116,13 +116,20 @@ body {
 }
 
 .container div {
-    width: 20%;
-    height: 10rem;
+    width: 15rem;
+    height: 15rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 30%;
-    min-width: 25%;
+    border-radius: 50%;
+    border-top: 2px silver solid;
+    border-bottom: 2px silver solid;
+}
+
+.container div:hover {
+    width: 17rem;
+    height: 17rem;
+    transition: 1s;
 }
 
 
@@ -130,20 +137,27 @@ body {
     font-size: 2rem;
     color: antiquewhite;
     display: flex;
-    width: 50%;
-    height: 65%;
+    width: 100%;
+    height: 40%;
     background-color:black;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
+    border-radius: 15%;
+    border-top: 1px silver solid;
+    border-bottom: 1px silver solid;
 }
+
+
 
 .container a {
     text-decoration: none;
     color: antiquewhite;
     background-color: black;
-    border-bottom: silver 2px solid;
     padding-bottom: 2px;
+}
+
+.container a:hover {
+    border-bottom: silver 2px solid;
 }
 
 .box1 {
