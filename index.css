@@ -1,0 +1,492 @@
+body {
+    margin: 0 auto;
+    max-width: 1500px;
+    align-items: center;
+    background: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+
+.main-nav ul {
+    display: grid;
+    grid-gap: 20px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+
+.main-nav a {
+    text-decoration: none;
+    background: darkgrey;
+    display: block;
+    padding: 0.8rem;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-family:fantasy;
+    letter-spacing: .1rem;
+    border: 1px black solid;
+    
+}
+
+.main-nav a:hover {
+    background-color:black;
+    color:darkgrey;
+    transition: .5s;
+    border: 1px solid darkgray;
+}
+
+.hero {
+    width: 100%;
+    height: 20rem;
+    background: url("index1/hero-img.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.hero-logo {
+    border-top: 1px darkgrey solid;
+}
+
+.hero h1 {
+    display: flex;
+    color:antiquewhite;
+    width: 80%;
+    height: 20%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    background-color:black;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+.hero img {
+    height: 50px;
+    width: 40px;
+    margin-top: 1rem;
+}
+
+.hero p {
+    color:antiquewhite;
+    width: 80%;
+    text-align: center;
+    height: 15%;
+    margin-top: 0;
+    background-color:black;
+    border-bottom: 1px darkgrey solid;
+}
+
+
+.logo {
+    height: 4rem;
+    width: 100%;
+    background-color: transparent;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.logo img {
+    height: 4rem;
+    width: 5%;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 14rem;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.container div {
+    width: 20%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 30%;
+    min-width: 25%;
+}
+
+
+.container p {
+    font-size: 2rem;
+    color: antiquewhite;
+    display: flex;
+    width: 50%;
+    height: 65%;
+    background-color:black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.container a {
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: black;
+    border-bottom: silver 2px solid;
+    padding-bottom: 2px;
+}
+
+.box1 {
+    background: url("index1/fishing.jpg");
+    background-size: cover;
+}
+
+.box2 {
+    background: url("index1/ducking.jpg");
+    background-size: cover;
+}
+
+.box3 {
+    background: url("index1/handshake.jpg");
+    background-size: cover;
+}
+
+.contact {
+    width: 100%;
+    height: 10rem;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact div {
+    color:antiquewhite;
+    width: 30%;
+    font-size: 2.2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 2;
+   
+}
+
+.contact a {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 2;
+}
+
+.email-img:hover {
+    height: 5.5rem;
+    width: 7rem;
+
+}
+
+.phone-img:hover {
+    height: 7rem;
+    width: 8rem;
+}
+
+.contact-border {
+    border-left: 1px darkgrey solid;
+    border-right: 1px darkgrey solid;
+}
+
+.contact img {
+    height: 40%;
+    width: 40%;
+    
+    
+}
+
+.contact p {
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+footer p {
+    font-size: 1.6rem;
+    color: darkgrey;
+}
+
+footer img {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+@media only screen and (min-width: 800px) {
+    .contact img {
+        width: 25%;
+        height: 25%;
+    }
+}
+
+/* About Us Page */
+
+.hero-about {
+    width: 100%;
+    height: 20rem;
+    background: url("index2/hero-about.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.hero-about h1 {
+    display: flex;
+    color:antiquewhite;
+    width: 80%;
+    height: 20%;
+    margin-bottom: 0;
+    margin-top: 0;
+    background-color:black;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.hero-about p {
+    color:antiquewhite;
+    width: 80%;
+    text-align: center;
+    height: 15%;
+    margin-top: 0;
+    background-color:black;
+    border-bottom: 1px darkgrey solid;
+}
+
+.hero-about img {
+    height: 50px;
+    width: 40px;
+    margin-top: 1rem;
+}
+
+
+.pg2margin {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.about-header {
+    color: antiquewhite;
+    margin-top: 7%;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.grid-container {
+    margin-left: 10%;
+    display: grid;
+    max-width: 80%;
+    height: 30rem;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: rpeat(2, 1fr);
+    grid-gap: 3rem;
+    margin-top: 1%;
+}
+
+.portrait {
+    background: url(index2/atlas.JPG);
+    background-size: cover;
+    background-position: center;
+    min-width: 10rem;
+    border: silver 1px solid;
+}
+
+.bio {
+    background-color: black;
+}
+
+.grid-container2 {
+    display: grid;
+    margin-left: 10%;
+    margin-top: 5rem;
+    margin-bottom:5rem;
+    max-width: 80%;
+    height: 40rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 3rem;
+}
+
+.boat-pic {
+    background: url("index2/oldboat.jpg");
+    background-size: 100%;
+    background-position: 20%;
+    border: 1px silver solid;
+}
+
+.boat-bio {
+    background-color: black;
+}
+
+/* contact page */
+
+.hero-contact {
+    width: 100%;
+    height: 20rem;
+    background: url("index4/hero-image.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.hero-contact h1 {
+    display: flex;
+    color:antiquewhite;
+    width: 80%;
+    height: 20%;
+    margin-bottom: 0;
+    margin-top: 0;
+    background-color:black;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.hero-contact p {
+    color:antiquewhite;
+    width: 80%;
+    text-align: center;
+    height: 15%;
+    margin-top: 0;
+    background-color:black;
+    border-bottom: 1px darkgrey solid;
+}
+
+.hero-contact img {
+    height: 50px;
+    width: 40px;
+    margin-top: 1rem;
+}
+.contact-info4 {
+    width: 100%;
+    height:25rem;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-info4-div {
+    height: 80%;
+    width: 40%;
+    display: flex;
+    color: white;
+    font-family: fantasy;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    border: silver 1px solid;
+}
+
+.contact-info4-div p {
+    height: 100%;
+    width:80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.call-us-header {
+    font-size: 2.5rem;
+    border-bottom: 1px silver solid;
+}
+
+.call-us-number {
+    font-size: 2rem;
+    
+}
+
+/* Services Page */
+
+.hero-services {
+    width: 100%;
+    height: 20rem;
+    background: url("index3/handshake.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.hero-services h1 {
+    display: flex;
+    color:antiquewhite;
+    width: 80%;
+    height: 20%;
+    margin-bottom: 0;
+    margin-top: 0;
+    background-color:black;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.hero-services p {
+    color:antiquewhite;
+    width: 80%;
+    text-align: center;
+    height: 15%;
+    margin-top: 0;
+    background-color:black;
+    border-bottom: 1px darkgrey solid;
+}
+
+.hero-services img {
+    height: 50px;
+    width: 40px;
+    margin-top: 1rem;
+}
+.services-header {
+    color:antiquewhite;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.services-paragraph {
+    color:antiquewhite;
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+}
