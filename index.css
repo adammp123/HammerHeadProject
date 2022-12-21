@@ -67,7 +67,8 @@ body {
     height: 20%;
     margin-bottom: 0px;
     margin-top: 0px;
-    background-color:black;
+    background-image: url('background.jpg');
+    background-size: cover;
     align-items: center;
     justify-content: center;
     
@@ -87,7 +88,8 @@ body {
     text-align: center;
     height: 15%;
     margin-top: 0;
-    background-color:black;
+    background-image: url('background.jpg');
+    background-size: cover;
     border-bottom: 1px darkgrey solid;
 }
 
@@ -286,7 +288,8 @@ footer img {
     height: 20%;
     margin-bottom: 0;
     margin-top: 0;
-    background-color:black;
+    background-image: url('background.jpg');
+    background-size: cover;
     align-items: center;
     justify-content: center;
     
@@ -298,7 +301,8 @@ footer img {
     text-align: center;
     height: 15%;
     margin-top: 0;
-    background-color:black;
+    background-image: url('background.jpg');
+    background-size: cover;
     border-bottom: 1px darkgrey solid;
 }
 
@@ -314,58 +318,18 @@ footer img {
     margin-right: 20px;
 }
 
-.about-header {
-    color: antiquewhite;
-    margin-top: 7%;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 2rem;
-}
-
-.grid-container {
-    margin-left: 10%;
-    display: grid;
-    max-width: 80%;
-    height: 30rem;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: rpeat(2, 1fr);
-    grid-gap: 3rem;
-    margin-top: 1%;
-}
-
 .portrait {
-    background: url(index2/atlas.JPG);
-    background-size: cover;
-    background-position: center;
-    min-width: 10rem;
-    border: silver 1px solid;
+   display: flex;
+   justify-content: space-between;
 }
 
-.bio {
-    color:antiquewhite;
-}
-
-.grid-container2 {
-    display: grid;
-    margin-left: 10%;
-    margin-top: 5rem;
-    margin-bottom:5rem;
-    max-width: 80%;
-    height: 40rem;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 3rem;
-}
-
-.boat-pic {
-    background: url("index2/oldboat.jpg");
-    background-size: 100%;
-    background-position: 20%;
+.portrait img {
+    height: 20rem;
+    width: 20rem;
     border: 1px silver solid;
-}
-
-.boat-bio {
-    background-color: black;
+    box-shadow: 0px 0px 0px .1rem black,
+    0px 0px 0px .2rem silver;
+    ;
 }
 
 /* contact page */
@@ -390,7 +354,8 @@ footer img {
     height: 20%;
     margin-bottom: 0;
     margin-top: 0;
-    background-color:black;
+    background-image: url('background.jpg');
+    background-size: cover;
     align-items: center;
     justify-content: center;
     
@@ -402,7 +367,8 @@ footer img {
     text-align: center;
     height: 15%;
     margin-top: 0;
-    background-color:black;
+    background-image: url('background.jpg');
+    background-size: cover;
     border-bottom: 1px darkgrey solid;
 }
 
@@ -475,7 +441,8 @@ footer img {
     height: 20%;
     margin-bottom: 0;
     margin-top: 0;
-    background-color:black;
+    background-image: url('background.jpg');
+    background-size: cover;
     align-items: center;
     justify-content: center;
     
@@ -487,7 +454,8 @@ footer img {
     text-align: center;
     height: 15%;
     margin-top: 0;
-    background-color:black;
+    background-image: url('background.jpg');
+    background-size: cover;
     border-bottom: 1px darkgrey solid;
 }
 
