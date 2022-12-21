@@ -131,6 +131,7 @@ body {
 .container div:hover {
     width: 17rem;
     height: 17rem;
+    box-shadow: 0px 0px 10px 2px silver;
     transition: 1s;
 }
 
@@ -156,11 +157,10 @@ body {
     color: antiquewhite;
     background-color: black;
     padding-bottom: 2px;
-}
-
-.container a:hover {
     border-bottom: silver 2px solid;
 }
+
+
 
 .box1 {
     background: url("index1/fishing.jpg");
@@ -417,6 +417,15 @@ footer img {
 .call-us-number {
     font-size: 2rem;
     
+}
+
+.call-us-number a {
+    color: white;
+}
+
+.call-us-number a:hover {
+    font-size: 2.2rem;
+    transition: 1s;
 }
 
 /* Services Page */
