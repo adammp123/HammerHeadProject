@@ -37,7 +37,7 @@ body {
 }
 
 .main-nav a:hover {
-    background-color:black;
+    background-color: rgba(0, 0, 0, .1);
     color:darkgrey;
     transition: .5s;
     border: 1px solid darkgrey;
@@ -46,7 +46,7 @@ body {
 .hero {
     width: 100%;
     height: 20rem;
-    background: url("index1/hero-img.jpg");
+    background-image: url('index1/hero-img.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -62,6 +62,7 @@ body {
 
 .hero h1 {
     display: flex;
+    font-size: 3.3rem;
     color:antiquewhite;
     width: 80%;
     height: 20%;
@@ -90,7 +91,6 @@ body {
     height: 15%;
     margin-top: 0;
     background-image: url('background.jpg');
-    background-size: cover;
     border-bottom: 1px darkgrey solid;
 }
 
@@ -203,7 +203,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 0;
-    
+    background-color: rgba(0, 0, 0, .15);
 }
 
 .contact div {
@@ -261,7 +261,7 @@ footer {
     margin-top: 3rem;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: rgba(0, 0, 0, .5);
 }
 
 footer p {
@@ -299,6 +299,7 @@ footer img {
 
 .hero-about h1 {
     display: flex;
+    font-size: 3.3rem;
     color:antiquewhite;
     width: 80%;
     height: 20%;
@@ -363,6 +364,7 @@ footer img {
 
 .hero-contact h1 {
     display: flex;
+    font-size: 3.3rem;
     color:antiquewhite;
     width: 80%;
     height: 20%;
@@ -418,8 +420,8 @@ footer img {
 }
 
 .contact-info4-div:hover {
-    height: 85%;
-    width: 45%;
+    height: 82%;
+    width: 42%;
     transition: 1s;
 }
 
@@ -444,11 +446,11 @@ footer img {
 }
 
 .call-us-number a {
-    color: white;
+    color: darkred;
 }
 
 .call-us-number a:hover {
-    font-size: 2.2rem;
+    font-size: 2.1rem;
     transition: 1s;
 }
 
@@ -469,6 +471,7 @@ footer img {
 
 .hero-services h1 {
     display: flex;
+    font-size: 3.3rem;
     color:antiquewhite;
     width: 80%;
     height: 20%;
@@ -498,10 +501,23 @@ footer img {
     width: 40px;
     margin-top: 1rem;
 }
+
+.header-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
 .services-header {
     color:antiquewhite;
     text-align: center;
-    font-size: 2rem;
+    align-self: center;
+    width: 30%;
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px silver solid;
 }
 
 .services-paragraph {
@@ -509,10 +525,29 @@ footer img {
     color:antiquewhite;
     width: 70%;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.4rem;
     letter-spacing: .1rem;
+    line-height: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    background:rgba(0, 0, 0, .1)
+}
+
+.services-paragraph a {
+    text-decoration: none;
+    color:rgb(154, 2, 2);
+    font-style: italic;
+    font-size: 1.4rem;
+    border: 1px silver solid;
+    padding: .7rem;
+    border-radius: 2%;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.services-paragraph a:hover {
+    font-size: 1.6rem;
+    color:bisque;
+    transition: 1s;
 }
 
 .fish-pics {
@@ -522,7 +557,6 @@ footer img {
     background-color: 0, 0, 0, 0;
     display: flex;
     justify-content: space-around;
-
 
 }
 
@@ -535,6 +569,7 @@ footer img {
     margin-top: 3rem;
     border-top: 1px silver solid;
     border-bottom: 1px silver solid;
+    background-color:rgba(0, 0, 0, .3);
 }
 
 .fish1 {
@@ -587,5 +622,18 @@ footer img {
     margin-left: 1rem;
     margin-right: 1rem;
 }
+
+#malard-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.malard {
+    height: 8rem;
+    width: 8rem;
+    margin: auto 0;
+}
+
 
 
