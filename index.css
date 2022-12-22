@@ -505,8 +505,85 @@ footer img {
 }
 
 .services-paragraph {
+    margin: 0 auto;
     color:antiquewhite;
+    width: 70%;
     text-align: center;
     font-size: 1rem;
     letter-spacing: .1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
+
+.fish-pics {
+    width: 90%;
+    height: 40rem;
+    margin: 0 auto;
+    background-color: 0, 0, 0, 0;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.fish-pics img {
+    width: 16rem;
+    height: 12rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    opacity: 1;
+    margin-top: 3rem;
+}
+
+.fish1 {
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px silver solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.fish1 div {
+    
+    height:30%;
+    width: 100%;
+    margin-top: 2;
+    margin-bottom: 2rem;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.fishbox-2 {
+    flex-basis: 10%;
+    color: silver;
+    font-size: 3rem;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+.fishbox-1 {
+    flex-basis: 45%;
+}
+
+.fishbox-3  {
+    flex-basis: 45%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.fishbox-3 div {
+    width: 100%;
+    flex-basis: 1;
+    justify-content: center;
+    color: silver;
+    font-size: 1.5rem;
+    font-family:monospace;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
