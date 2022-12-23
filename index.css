@@ -78,9 +78,9 @@ body {
 
 
 .hero img {
-    height: 50px;
-    width: 40px;
-    margin-top: 1rem;
+    height: 6rem;
+    width: 4.5rem;
+    z-index: 2;
 }
 
 .hero p {
@@ -325,9 +325,9 @@ footer img {
 }
 
 .hero-about img {
-    height: 50px;
-    width: 40px;
-    margin-top: 1rem;
+    height: 6rem;
+    width: 4.5rem;
+    z-index: 2;
 }
 
 
@@ -390,9 +390,9 @@ footer img {
 }
 
 .hero-contact img {
-    height: 50px;
-    width: 40px;
-    margin-top: 1rem;
+    height: 6rem;
+    width: 4.5rem;
+    z-index: 2;
 }
 
 
@@ -497,9 +497,9 @@ footer img {
 }
 
 .hero-services img {
-    height: 50px;
-    width: 40px;
-    margin-top: 1rem;
+    height: 6rem;
+    width: 4.5rem;
+    z-index: 2;
 }
 
 .header-box {
