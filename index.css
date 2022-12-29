@@ -572,14 +572,23 @@ footer img {
     background-color:rgba(0, 0, 0, .3);
 }
 
+.fish-pics img:hover {
+    width: 20rem;
+    height: 14rem;
+    transition: 1s;
+
+}
+
 .fish1 {
     background: rgba(0, 0, 0, 0.5);
     border: 2px silver solid;
+    border-radius: 1%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     
 }
+
 
 .fish1 div {
     
