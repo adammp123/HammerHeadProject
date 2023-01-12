@@ -52,7 +52,7 @@ body {
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    margin-bottom: 80px;
+    margin-bottom: 8rem;
 }
 
 .hero-logo {
@@ -113,7 +113,8 @@ body {
     width: 100%;
     height: 14rem;
     justify-content: space-around;
-    margin-top: 30px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .container div {
@@ -195,7 +196,7 @@ body {
     width: 80%;
     margin: 0 auto;
     height: 10rem;
-    margin-top: 4rem;
+    margin-top: 8rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -207,7 +208,7 @@ body {
 .contact div {
     color:antiquewhite;
     width: 30%;
-    height: 7rem;
+    height: 10rem;
     font-size: 2.2rem;
     display: flex;
     justify-content: center;
@@ -226,14 +227,16 @@ body {
     flex-shrink: 2;
 }
 
-.email-img:hover {
-    margin-bottom: 2rem;
-    transition: .5s;
+.contact img {
+    height: 5rem;
+    width: 7rem;
 }
 
-.phone-img:hover {
-    margin-bottom: 2rem;
-    transition: .5s;
+.contact img:hover {
+height: 6rem;
+width: 8rem;
+margin-bottom: 2rem;
+transition: 1s;
 }
 
 #loc {
@@ -657,34 +660,92 @@ footer img {
             border-radius: 25px;
         }
 
-        .hero h1 {
+        .hero h1,
+        .hero-about h1,
+        .hero-contact h1,
+        .hero-services h1 {
             font-size: 2rem;
             text-align: center;
         }
 }
 
 @media screen and (max-width: 470px) {
-    .hero h1 {
+    .hero h1,
+    .hero-about h1,
+    .hero-contact h1,
+    .hero-servces h1 {
         font-size: 1.3rem;
         
     }
 }
 
-@media screen and (max-width: 1075px) {
+@media screen and (max-width: 1075px) and (min-width: 775px) {
     .container div {
         height: 10rem;
         width: 10rem;
     }
 
+    .container div:hover {
+        height: 12rem;
+        width: 12rem;
+    }
+
     .container {
         margin-bottom: 0;
         align-items: center;
+        height: 10rem;
+        border: 1px red solid;
+    }
+
+    .hero,
+    .hero-about,
+    .hero-contact,
+    .hero-services {
+        margin-bottom: 5rem;
+    }
+
+    .contact {
+        margin-top: 4rem;
     }
 }
 
 @media screen and (max-width: 775px) {
+    .hero,
+    .hero-about,
+    .hero-contact,
+    .hero-services {
+        margin-bottom: 5rem;
+    }
+
     .container {
-        margin-top: 20%;
-        margin-bottom: 20%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 70rem;
+        border: 1px red solid;
+    }
+
+    .container div {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .contact {
+        margin-top: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .contact {
+        height: 30rem;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .contact img {
+        min-width: 5rem;
     }
 }
