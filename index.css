@@ -10,15 +10,14 @@ body {
 
 
 
+
 .main-nav ul {
     display: grid;
     grid-gap: 20px;
     padding: 0;
     list-style: none;
     grid-template-columns: repeat(4, 1fr);
-    
 }
-
 
 .main-nav a {
     text-decoration: none;
@@ -62,8 +61,8 @@ body {
 
 .hero h1 {
     display: flex;
-    font-size: 3.3rem;
-    color:antiquewhite;
+    font-size: 2.5rem;
+    color: aliceblue;
     width: 80%;
     height: 20%;
     margin-bottom: 0px;
@@ -72,7 +71,6 @@ body {
     background-size: cover;
     align-items: center;
     justify-content: center;
-    
 }
 
 
@@ -273,13 +271,6 @@ footer img {
     height: 50px;
     width: 50px;
     margin-right: 10px;
-}
-
-@media only screen and (min-width: 800px) {
-    .contact img {
-        width: 25%;
-        height: 25%;
-    }
 }
 
 /* About Us Page */
@@ -644,5 +635,56 @@ footer img {
     margin: auto 0;
 }
 
+@media screen and (max-width: 550px) {
+    .main-nav ul {
+        display: flex;
+        flex-direction: column;
+        
+    }
 
+    .main-nav a {
+        border-radius: 25px;
+        background-color: rgba(0, 0, 0, .1);
+        color:darkgrey;
+        transition: .5s;
+        border: 1px solid darkgrey;
+        letter-spacing: .5rem;
+    }
+}
 
+@media screen and (max-width: 750px) {
+        .main-nav a {
+            border-radius: 25px;
+        }
+
+        .hero h1 {
+            font-size: 2rem;
+            text-align: center;
+        }
+}
+
+@media screen and (max-width: 470px) {
+    .hero h1 {
+        font-size: 1.3rem;
+        
+    }
+}
+
+@media screen and (max-width: 1075px) {
+    .container div {
+        height: 10rem;
+        width: 10rem;
+    }
+
+    .container {
+        margin-bottom: 0;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .container {
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+}
