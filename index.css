@@ -63,11 +63,11 @@ body {
     display: flex;
     font-size: 2.5rem;
     color: aliceblue;
+    background-color:rgba(0, 0, 0, .8);
     width: 80%;
     height: 20%;
     margin-bottom: 0px;
     margin-top: 0px;
-    background-image: url('background.jpg');
     background-size: cover;
     align-items: center;
     justify-content: center;
@@ -84,11 +84,11 @@ body {
 .hero p {
     font-style: italic;
     color:antiquewhite;
+    background-color:rgba(0, 0, 0, .8);
     width: 80%;
     text-align: center;
     height: 15%;
     margin-top: 0;
-    background-image: url('background.jpg');
     border-bottom: 1px darkgrey solid;
 }
 
@@ -299,7 +299,7 @@ footer img {
     height: 20%;
     margin-bottom: 0;
     margin-top: 0;
-    background-image: url('background.jpg');
+    background-color:rgba(0, 0, 0, .8);
     background-size: cover;
     align-items: center;
     justify-content: center;
@@ -313,7 +313,7 @@ footer img {
     text-align: center;
     height: 15%;
     margin-top: 0;
-    background-image: url('background.jpg');
+    background-color:rgba(0, 0, 0, .8);
     background-size: cover;
     border-bottom: 1px darkgrey solid;
 }
@@ -364,7 +364,7 @@ footer img {
     height: 20%;
     margin-bottom: 0;
     margin-top: 0;
-    background-image: url('background.jpg');
+    background-color:rgba(0, 0, 0, .8);
     background-size: cover;
     align-items: center;
     justify-content: center;
@@ -378,7 +378,7 @@ footer img {
     text-align: center;
     height: 15%;
     margin-top: 0;
-    background-image: url('background.jpg');
+    background-color:rgba(0, 0, 0, .8);
     background-size: cover;
     border-bottom: 1px darkgrey solid;
 }
@@ -427,6 +427,7 @@ footer img {
     align-items: center;
     margin-top: 0;
     margin-bottom: 0;
+    text-align: center;
 }
 
 .call-us-header {
@@ -436,7 +437,9 @@ footer img {
 
 .call-us-number {
     font-size: 2rem;
-    
+    display: flex;
+    flex-wrap: wrap;
+    word-break: break-word;
 }
 
 .call-us-number a {
@@ -471,7 +474,7 @@ footer img {
     height: 20%;
     margin-bottom: 0;
     margin-top: 0;
-    background-image: url('background.jpg');
+    background-color:rgba(0, 0, 0, .8);
     background-size: cover;
     align-items: center;
     justify-content: center;
@@ -485,7 +488,7 @@ footer img {
     text-align: center;
     height: 15%;
     margin-top: 0;
-    background-image: url('background.jpg');
+    background-color:rgba(0, 0, 0, .8);
     background-size: cover;
     border-bottom: 1px darkgrey solid;
 }
@@ -507,11 +510,10 @@ footer img {
     color:antiquewhite;
     text-align: center;
     align-self: center;
-    width: 30%;
+    width: 80%;
     font-size: 3rem;
     margin-top: 0;
     margin-bottom: 1.5rem;
-    border-bottom: 2px silver solid;
 }
 
 .services-paragraph {
@@ -524,7 +526,7 @@ footer img {
     line-height: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
-    background:rgba(0, 0, 0, .1)
+    background:rgba(0, 0, 0, .1);
 }
 
 .services-paragraph a {
@@ -551,7 +553,6 @@ footer img {
     background-color: 0, 0, 0, 0;
     display: flex;
     justify-content: space-around;
-
 }
 
 .fish-pics img {
@@ -563,7 +564,6 @@ footer img {
     margin-top: 3rem;
     border-top: 1px silver solid;
     border-bottom: 1px silver solid;
-    background-color:rgba(0, 0, 0, .3);
 }
 
 .fish-pics img:hover {
@@ -638,6 +638,78 @@ footer img {
     margin: auto 0;
 }
 
+.full-text {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+    margin-top: 2rem;
+}
+.full-text div {
+    border: 1px silver solid;
+    color: silver;
+    background-color:rgba(0, 0, 0, .6);
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    height: 100%;
+    width: 30%;
+    letter-spacing: .5rem;
+}
+
+.short-text {
+    text-align: center;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+    margin-top: 2rem;
+    
+}
+
+.short-text div {
+    border: 1px silver solid;
+    color: silver;
+    background-color:rgba(0, 0, 0, .6);
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    height: 100%;
+    width: 30%;
+    min-width: 14rem;
+    letter-spacing: .5rem;
+}
+
+.short-text div:hover,
+.full-text div:hover {
+    width: 35%;
+    height: 110%;
+    background-color: silver;
+    color: black;
+    border: black 1px solid;
+    box-shadow: 0px 0px 10px 10px black;
+    opacity: .6;
+    transition: 1s;
+}
+
+.short-text a,
+.full-text a {
+    display:  flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+
+
 @media screen and (max-width: 550px) {
     .main-nav ul {
         display: flex;
@@ -677,6 +749,14 @@ footer img {
         font-size: 1.3rem;
         
     }
+
+    .fish-pics img {
+        width: 12rem;
+    }
+
+    .fish-pics img:hover {
+        width: 14rem;
+    }
 }
 
 @media screen and (max-width: 1075px) and (min-width: 775px) {
@@ -694,7 +774,7 @@ footer img {
         margin-bottom: 0;
         align-items: center;
         height: 10rem;
-        border: 1px red solid;
+
     }
 
     .hero,
@@ -707,6 +787,8 @@ footer img {
     .contact {
         margin-top: 4rem;
     }
+
+    
 }
 
 @media screen and (max-width: 775px) {
@@ -722,7 +804,7 @@ footer img {
         align-items: center;
         justify-content: center;
         height: 70rem;
-        border: 1px red solid;
+
     }
 
     .container div {
@@ -747,5 +829,92 @@ footer img {
 
     .contact img {
         min-width: 5rem;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .call-us-header {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 915px) {
+    .call-us-header {
+        font-size: 1.5rem;
+    }
+    .call-us-number {
+        font-size: 1.5rem;
+    }
+    
+}
+
+@media screen and (max-width: 705px) {
+    .contact-info4 {
+        flex-direction: column;
+        height: 35rem;
+    }
+
+    .contact-info4-div {
+        width: 55%;
+        height: 40%;
+    }
+
+    .contact-info4 div:hover {
+        width: 60%;
+        height: 45%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .call-us-header {
+        font-size: 1.2rem;
+    }
+    .call-us-number {
+        font-size: 1.2rem;
+    }
+
+    .fish-pics {
+        height: 150rem;
+    }
+
+    footer p {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .portrait {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fish-pics {
+        flex-direction: column;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        height: 130rem;
+        max-width: 60%;
+        text-align: center;
+    }
+
+    .full-text {
+        display: none;
+    }
+
+    .short-text {
+        display: flex;
+    }
+    
+}
+
+@media screen and (max-width: 1325px) {
+    .full-text div {
+        letter-spacing: .1rem;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .fish-pics {
+        height: 150rem;
     }
 }
