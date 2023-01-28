@@ -32,7 +32,7 @@ body {
     font-family:fantasy;
     letter-spacing: .1rem;
     border: 1px black solid;
-    
+    border-radius: 25px;
 }
 
 .main-nav a:hover {
@@ -53,6 +53,7 @@ body {
     align-content: center;
     justify-content: center;
     margin-bottom: 8rem;
+    border-radius: 25px;
 }
 
 .hero-logo {
@@ -289,6 +290,7 @@ footer img {
     align-content: center;
     justify-content: center;
     margin-bottom: 80px;
+    border-radius: 25px;
 }
 
 .hero-about h1 {
@@ -368,6 +370,7 @@ footer img {
     align-content: center;
     justify-content: center;
     margin-bottom: 80px;
+    border-radius: 25px;
 }
 
 .hero-contact h1 {
@@ -478,6 +481,7 @@ footer img {
     align-content: center;
     justify-content: center;
     margin-bottom: 80px;
+    border-radius: 25px;
 }
 
 .hero-services h1 {
@@ -591,10 +595,11 @@ footer img {
     background: rgba(0, 0, 0, 0.5);
     border: 2px silver solid;
     border-radius: 1%;
+    max-width: 20rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    border-radius: 25px;
 }
 
 
@@ -818,15 +823,15 @@ footer img {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 130rem;
+        height: 70rem;
 
     }
 
     .container div {
         margin-top: 2rem;
         margin-bottom: 2rem;
-        width: 30rem;
-        height: 30rem;
+        width: 15rem;
+        height: 15rem;
     }
 
     .contact {
@@ -932,10 +937,11 @@ footer img {
 
     .fish-pics {
         flex-direction: column;
+        align-items: center;
         margin-top: 2rem;
         margin-bottom: 2rem;
         height: 130rem;
-        max-width: 60%;
+        max-width: 30rem;
         text-align: center;
     }
 
