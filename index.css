@@ -21,7 +21,7 @@ body {
 
 .main-nav a {
     text-decoration: none;
-    background: rgba(128, 128, 128, 0.632);
+    background: rgba(128, 128, 128, 0.4);
     display: block;
     padding: 0.8rem;
     text-align: center;
@@ -332,7 +332,21 @@ footer img {
 
 .portrait {
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
+   background-color:rgba(0, 0, 0, .5);
+   border-radius: 25px;
+}
+
+.portrait div {
+    display: flex;
+    font-size: 1.4rem;
+    letter-spacing: .1rem;
+    color: antiquewhite;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 20rem;
+    text-align: center;
 }
 
 .portrait img {
@@ -718,6 +732,7 @@ footer img {
     }
 
     .main-nav a {
+        border: 1px red solid;
         border-radius: 25px;
         background-color: rgba(0, 0, 0, .1);
         color:darkgrey;
@@ -803,15 +818,15 @@ footer img {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 70rem;
+        height: 130rem;
 
     }
 
     .container div {
         margin-top: 2rem;
         margin-bottom: 2rem;
-        width: 15rem;
-        height: 15rem;
+        width: 30rem;
+        height: 30rem;
     }
 
     .contact {
@@ -829,6 +844,15 @@ footer img {
 
     .contact img {
         min-width: 5rem;
+    }
+
+    .container {
+        height: 70rem;
+    }
+
+    .container div {
+        height: 15rem;
+        width: 15rem;
     }
 }
 
@@ -852,11 +876,14 @@ footer img {
     .contact-info4 {
         flex-direction: column;
         height: 35rem;
+        width: 90%;
+        margin: 0 auto;
     }
 
     .contact-info4-div {
-        width: 55%;
+        width: 90%;
         height: 40%;
+
     }
 
     .contact-info4 div:hover {
@@ -880,12 +907,27 @@ footer img {
     footer p {
         display: none;
     }
+
+    .portrait {
+        width: 30rem;
+        overflow: hidden;
+    }
 }
 
 @media screen and (max-width: 1040px) {
     .portrait {
         flex-direction: column;
         align-items: center;
+    }
+
+    .portrait div {
+        margin-bottom: 2rem;
+        width: 30rem;
+    }
+
+    .portrait img {
+        height: 30rem;
+        width: 30rem;
     }
 
     .fish-pics {
@@ -913,8 +955,37 @@ footer img {
     }
 }
 
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 350px) {
     .fish-pics {
         height: 150rem;
+    }
+    .portrait {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .portrait div {
+        width: 100%;
+        font-size: .8rem;
+    }
+    .portrait p {
+        width: 15rem;
+    }
+    .portrait img {
+       width: 30rem;
+       height: 30rem;
+       margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    .portrait div {
+        margin-bottom: 2rem;
+        width: 20rem;
+    }
+
+    .portrait img {
+        height: 20rem;
+        width: 20rem;
+        margin-bottom: 2rem;
     }
 }
